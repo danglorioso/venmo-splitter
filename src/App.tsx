@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 
 
-const utilities = ["Electricity", "Gas", "Internet", "Water", "Trash"];
+const utilities = ["Electricity", "Gas", "Internet"];
 const months = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
@@ -82,7 +82,7 @@ export default function UtilitySplitForm() {
 
       {/* Preview */}
       <div className="bg-gray-50 p-4 rounded border">
-        <h3 className="font-semibold mb-2">Preview Request</h3>
+        <h3 className="font-semibold mb-2">Preview Request:</h3>
         <p>
           <strong>Title:</strong> {title}
         </p>
