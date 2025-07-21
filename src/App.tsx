@@ -74,7 +74,7 @@ export default function UtilitySplitForm() {
         type="number"
         min="0"
         step="0.01"
-        value={amount} 
+        value={amount}
         onChange={(e) => setAmount(e.target.value)}
         placeholder="Enter total bill amount"
         className="w-full border rounded px-3 py-2"
