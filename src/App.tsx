@@ -2,8 +2,7 @@ import React, { useState, useMemo } from "react";
 
 
 const utilities = ["Electricity", "Gas", "Internet"];
-const months = [
-  "January", "February", "March", "April", "May", "June",
+const months = [ "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
 
