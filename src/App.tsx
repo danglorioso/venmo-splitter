@@ -1,10 +1,9 @@
 import React, { useState, useMemo } from "react";
 
 
-const utilities = ["Electricity", "Gas", "Internet"];
+const utilities = [ "Electricity", "Gas", "Internet" ];
 const months = [ "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-];
+  "July", "August", "September", "October", "November", "December" ];
 
 const roommates = JSON.parse(import.meta.env.VITE_ROOMMATES || "[]");
 const myVenmo = import.meta.env.VITE_MY_VENMO || "";
