@@ -96,6 +96,12 @@ export default function UtilitySplitForm() {
       </div>
 
       {/* TODO: Add submission logic */}
+      <button
+        className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+        onClick={() => alert("Submission logic not implemented yet.")}
+      >
+        Submit Request
+      </button>
     </div>
   );
 }
